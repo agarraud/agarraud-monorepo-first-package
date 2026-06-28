@@ -2,7 +2,7 @@
     "name": "agarraud/agarraud-monorepo-first-package",
     "require": {
         "symfony/http-kernel": "^5.0",
-        "agarraud/agarraud-monorepo-second-package": "^1.0.7"
+        "agarraud/agarraud-monorepo-second-package": "^1.0.8"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.5"
