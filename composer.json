@@ -1,5 +1,7 @@
 {
     "name": "agarraud/agarraud-monorepo-first-package",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "symfony/http-kernel": "^5.0",
         "agarraud/agarraud-monorepo-second-package": "^1.1"
