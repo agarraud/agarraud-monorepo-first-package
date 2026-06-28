@@ -8,4 +8,8 @@ use Agarraud\AgarraudMonorepoSecondPackage\SecondClass;
 
 class FirstClass extends SecondClass
 {
+    public function describe(): string
+    {
+        return sprintf('first extends %s', $this->name());
+    }
 }
