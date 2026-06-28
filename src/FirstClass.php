@@ -15,6 +15,6 @@ class FirstClass extends SecondClass
 
     public function loud(): string
     {
-        return strtoupper($this->greet());
+        return strtolower($this->greet());
     }
 }
