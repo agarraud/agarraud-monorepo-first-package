@@ -6,5 +6,5 @@ namespace Agarraud\AgarraudMonorepoFirstPackage;
 
 final class Version
 {
-    public const VERSION = '1.0.12';
+    public const VERSION = '1.0.13';
 }
