@@ -12,4 +12,9 @@ class FirstClass extends SecondClass
     {
         return sprintf('first extends %s', $this->name());
     }
+
+    public function loud(): string
+    {
+        return strtoupper($this->greet());
+    }
 }

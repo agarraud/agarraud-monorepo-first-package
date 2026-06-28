@@ -28,4 +28,11 @@ final class FirstClassTest extends TestCase
 
         self::assertSame('hello from second', $first->greet());
     }
+
+    public function testLoudUppercasesGreeting(): void
+    {
+        $first = new FirstClass();
+
+        self::assertSame('HELLO FROM SECOND', $first->loud());
+    }
 }
