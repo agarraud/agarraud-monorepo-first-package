@@ -1,0 +1,17 @@
+{
+  "name": "agarraud/agarraud-monorepo-first-package",
+  "require": {
+    "symfony/http-kernel": "^5.0",
+    "agarraud/agarraud-monorepo-second-package": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Agarraud\\AgarraudMonorepoFirstPackage\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
