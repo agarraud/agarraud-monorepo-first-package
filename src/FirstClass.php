@@ -10,7 +10,7 @@ class FirstClass extends SecondClass
 {
     public function describe(): string
     {
-        return sprintf('first test extends %s', $this->name());
+        return sprintf('first test post 1.0.16 extends %s', $this->name());
     }
 
     public function loud(): string
