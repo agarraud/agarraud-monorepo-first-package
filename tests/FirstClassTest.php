@@ -21,4 +21,11 @@ final class FirstClassTest extends TestCase
 
         self::assertSame('first extends second', $first->describe());
     }
+
+    public function testInheritsGreetFromSecondClass(): void
+    {
+        $first = new FirstClass();
+
+        self::assertSame('hello from second', $first->greet());
+    }
 }
